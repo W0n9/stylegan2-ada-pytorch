@@ -1,2 +1,9 @@
 __pycache__/
 .cache/
+cargo.zip
+container.zip
+tanker.zip
+.gitignore
+datasets/*
+training-runs/*
+train.log
