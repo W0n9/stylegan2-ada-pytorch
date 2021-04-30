@@ -34,7 +34,7 @@ def compute_distances(row_features, col_features, num_gpus, rank, col_batch_size
 #----------------------------------------------------------------------------
 
 def compute_pr(opts, max_real, num_gen, nhood_size, row_batch_size, col_batch_size):
-    detector_url = 'https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metrics/vgg16.pt'
+    detector_url = 'https://caddy.buct.edu.cn/stylegan2-ada-pytorch/pretrained/metrics/vgg16.pt'
     detector_kwargs = dict(return_features=True)
 
     real_features = metric_utils.compute_feature_stats_for_dataset(
