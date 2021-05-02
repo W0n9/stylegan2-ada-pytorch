@@ -7,3 +7,4 @@ tanker.zip
 datasets/*
 training-runs/*
 train.log
+.vscode/settings.json
