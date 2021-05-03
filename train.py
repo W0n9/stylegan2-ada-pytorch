@@ -10,6 +10,8 @@
 "Training Generative Adversarial Networks with Limited Data"."""
 
 import os
+# For control what GPU to use
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import click
 import re
 import json
@@ -21,6 +23,7 @@ from training import training_loop
 from metrics import metric_main
 from torch_utils import training_stats
 from torch_utils import custom_ops
+
 
 #----------------------------------------------------------------------------
 
