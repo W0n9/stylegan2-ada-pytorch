@@ -11,7 +11,7 @@
 
 import os
 # For control what GPU to use
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import click
 import re
 import json

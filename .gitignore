@@ -1,8 +1,6 @@
 __pycache__/
 .cache/
-cargo.zip
-container.zip
-tanker.zip
+*.zip
 .gitignore
 datasets/*
 training-runs/*
