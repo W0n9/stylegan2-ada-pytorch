@@ -6,3 +6,8 @@ datasets/*
 training-runs/*
 train.log
 .vscode/settings.json
+out/
+packed/
+
+*.tgz
+*.pkl
