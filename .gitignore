@@ -8,6 +8,7 @@ train.log
 .vscode/settings.json
 out/
 packed/
+outbak/
 
 *.tgz
 *.pkl
