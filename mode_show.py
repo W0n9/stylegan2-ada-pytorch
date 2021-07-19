@@ -1,8 +1,9 @@
 #%%
 import matplotlib.pylab as plt
 import pathlib
+import sys
 #%%
-species = "cargo"
+species = sys.argv[1]
 pic_dir = pathlib.Path("/home/pc001/w0n9/stylegan2-ada-pytorch/out/" + species)
 # list1 = [
 #     -1, -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3,
