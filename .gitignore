@@ -2,8 +2,8 @@ __pycache__/
 .cache/
 *.zip
 .gitignore
-datasets/*
-training-runs/*
+datasets/
+training-runs/
 train.log
 .vscode/settings.json
 out/
