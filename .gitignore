@@ -1,11 +1,10 @@
 __pycache__/
 .cache/
 *.zip
-.gitignore
 datasets/
 training-runs/
-train.log
-.vscode/settings.json
+*.log
+.vscode/
 out/
 packed/
 outbak/

@@ -1,15 +1,17 @@
 #! /usr/bin/bash
 
-nohup python train.py \
+nohup tensorboard --logdir training-runs/ --bind_all >/dev/null 2>&1 &
+
+CUDA_VISIBLE_DEVICES=0 nohup python train.py \
     --outdir=./training-runs \
-    --data=./datasets/general_cargo.zip \
+    --data=./datasets/bulk_carrier.zip \
     --mirror=1 \
     --aug=ada \
     --target=0.7 \
     --gpus=2 \
     --metrics=fid50k_full,kid50k_full,pr50k3_full \
     --gamma=2 \
-    --resume=ffhq512 \
+    --resume=ffhq256 \
     --snap=25 \
     >train.log &
 
